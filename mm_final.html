@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mastermind</title>
+    <link rel="stylesheet" type="text/css" href="mastermind1.css">
+    <script src="mm_final.js"></script>
+</head>
+<body onload="Initialize()">
+
+<section id="speelveld">
+
+    <!-- de oplossing -->
+    <div class="row clearfix">
+        <div id=sol1 class="circle"></div>
+        <div id=sol2 class="circle"></div>
+        <div id=sol3 class="circle"></div>
+        <div id=sol4 class="circle"></div>
+    </div>
+
+    <!-- alle pogingen van de speler -->
+    <div id="rijen">
+
+    </div>
+
+    <!-- de Check button -->
+    <div id="bottom_row" class="row clearfix">
+        <div id="checkbutton" onclick="NewRow();">Check</div>
+    </div>
+
+</section>
+
+</body>
+</html>
